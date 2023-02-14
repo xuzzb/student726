@@ -1,5 +1,7 @@
 package com.dcits.spring;
 
+import com.dcits.spring.config.XuzzAppconfig;
+import com.dcits.spring.context.XuzzApplicationContext;
 import com.dcits.spring.entity.User;
 import com.dcits.spring.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -10,9 +12,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class SpringTest {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(AppConfig.class);
-        UserService userService = (UserService)context.getBean("userService");
-         userService.printInfo();
+        XuzzApplicationContext xuzzApplicationContext = new XuzzApplicationContext(XuzzAppconfig.class);
+        UserService userService = (UserService)xuzzApplicationContext.getBean("userService");
+
     }
 }
