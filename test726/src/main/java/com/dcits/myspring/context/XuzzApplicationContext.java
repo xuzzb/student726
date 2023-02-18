@@ -1,11 +1,10 @@
-package com.dcits.spring.context;
+package com.dcits.myspring.context;
 
-import com.dcits.spring.anno.XuzzComponent;
-import com.dcits.spring.anno.XuzzCompontentScan;
-import com.dcits.spring.anno.XuzzScope;
+import com.dcits.myspring.anno.XuzzComponent;
+import com.dcits.myspring.anno.XuzzCompontentScan;
+import com.dcits.myspring.anno.XuzzScope;
 
 import java.io.File;
-import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.Map;

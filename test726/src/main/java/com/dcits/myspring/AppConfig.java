@@ -1,7 +1,8 @@
-package com.dcits.spring;
+package com.dcits.myspring;
 
-import com.dcits.spring.service.OrderService;
-import com.dcits.spring.service.UserService;
+import com.dcits.myspring.entity.User;
+import com.dcits.myspring.service.OrderService;
+import com.dcits.myspring.service.UserService;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -16,5 +17,9 @@ public class AppConfig {
     @Bean
     public OrderService orderService(){
         return new OrderService();
+    }
+    @Bean
+    public User user(){
+        return new User();
     }
 }

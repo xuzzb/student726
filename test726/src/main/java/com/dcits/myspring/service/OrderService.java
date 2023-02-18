@@ -1,4 +1,4 @@
-package com.dcits.spring.service;
+package com.dcits.myspring.service;
 
 import com.dcits.myspring.anno.XuzzComponent;
 

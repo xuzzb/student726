@@ -1,4 +1,4 @@
-package com.dcits.spring.context;
+package com.dcits.myspring.context;
 
 /**
  * bean信息存放

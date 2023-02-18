@@ -1,7 +1,7 @@
 package com.dcits.spring.service;
 
-import com.dcits.spring.anno.XuzzComponent;
+import org.springframework.stereotype.Component;
 
-@XuzzComponent("studentService")
+@Component("studentService")
 public class StudentService {
 }

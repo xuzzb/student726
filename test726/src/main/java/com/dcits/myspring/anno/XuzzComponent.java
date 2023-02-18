@@ -1,4 +1,4 @@
-package com.dcits.spring.anno;
+package com.dcits.myspring.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface XuzzScope {
-    String value() default "";
+public @interface XuzzComponent {
+    String value() default  "";
 }
