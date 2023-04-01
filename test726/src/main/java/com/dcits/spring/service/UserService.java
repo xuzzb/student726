@@ -1,5 +1,6 @@
 package com.dcits.spring.service;
 
+import org.springframework.beans.factory.DisposableBean;
 import org.springframework.stereotype.Component;
 
 /**
@@ -7,7 +8,10 @@ import org.springframework.stereotype.Component;
  * @Create 2023/2/8
  */
 @Component("userService")
-public class UserService {
-    public void printInfo(){
+public class UserService implements DisposableBean {
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("此处销毁bean");
     }
 }

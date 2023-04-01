@@ -2,7 +2,7 @@ package com.dcits.myspring;
 
 import com.dcits.myspring.entity.User;
 import com.dcits.myspring.service.OrderService;
-import com.dcits.myspring.service.UserService;
+import com.dcits.spring.service.UserService;
 import org.springframework.context.annotation.Bean;
 
 /**
