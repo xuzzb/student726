@@ -7,11 +7,7 @@ import org.springframework.stereotype.Component;
  * @Author xuzzb
  * @Create 2023/2/8
  */
-@Component("userService")
-public class UserService implements DisposableBean {
+public class UserService  {
 
-    @Override
-    public void destroy() throws Exception {
-        System.out.println("此处销毁bean");
-    }
+
 }

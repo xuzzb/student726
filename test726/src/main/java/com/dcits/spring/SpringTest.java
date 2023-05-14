@@ -1,6 +1,7 @@
 package com.dcits.spring;
 
-import com.dcits.myspring.AppConfig;
+
+import com.dcits.spring.config.Appconfig;
 import com.dcits.spring.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -11,8 +12,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class SpringTest {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
-                new AnnotationConfigApplicationContext(AppConfig.class);
+                new AnnotationConfigApplicationContext(Appconfig.class);
         UserService userService = (UserService) annotationConfigApplicationContext.getBean("userService");
-        annotationConfigApplicationContext.close();
+        System.out.println(userService);
     }
 }

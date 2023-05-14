@@ -2,5 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/test726/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test726/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeperCloud/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeperCloud/order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeperCloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeperCloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeperCloud/user/src/main/java" charset="UTF-8" />
   </component>
 </project>
